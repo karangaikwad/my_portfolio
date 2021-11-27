@@ -6,18 +6,24 @@ function Navbar() {
         <div className="collapse navbar-collapse " id="navbarSupportedContent">
           <ul className="navbar-nav elements ">
             <li className="nav-item active">
-              <button className="btn shadow-none">
-                <p className="color2">Home</p>
+              <button className="btn shadow-none" href="/">
+                <p className="color2">
+                  <a href="/">Home</a>
+                </p>
               </button>
             </li>
             <li className="nav-item">
               <button className="btn shadow-none">
-                <p className="color2">Projects</p>
+                <p className="color2">
+                  <a href="project">Projects</a>
+                </p>
               </button>
             </li>
             <li className="nav-item">
               <button className="btn shadow-none">
-                <p className="color2">Contact Me</p>
+                <p className="color2">
+                  <a href="contactme">Contact Me</a>
+                </p>
               </button>
             </li>
             {/* <li className="nav-item justify-content-end">

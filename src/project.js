@@ -1,7 +1,10 @@
+import Navbar from "./components/navbar";
+
 function Project() {
   return (
     <>
-      <h1>Under Construction</h1>
+      <Navbar />
+      <h1 className="color2">Under Construction</h1>
     </>
   );
 }

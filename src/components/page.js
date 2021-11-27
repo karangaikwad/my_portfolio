@@ -25,10 +25,17 @@ function Page() {
 
             <div class="container">
               <div class="row">
-                <div class="col-10">
+                <div class="col-5">
                   <p>Looking for challenges</p>
                 </div>
-                <div class="col">
+                <div class="col-5">
+                  <button className="btn grad1 ">
+                    <spam>
+                      <a href="contactme">CONTACT ME</a>
+                    </spam>
+                  </button>
+                </div>
+                <div class="col-2">
                   <Social />
                 </div>
               </div>

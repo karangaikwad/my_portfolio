@@ -1,7 +1,9 @@
+import Navbar from "./components/navbar";
 function Contactme() {
   return (
     <>
-      <h1>Contact Me</h1>
+      <Navbar />
+      <h1 className="color2">Under Construction</h1>
     </>
   );
 }

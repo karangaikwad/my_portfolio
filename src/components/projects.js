@@ -16,7 +16,7 @@ function Projects() {
                   </p>
                   <div class="d-flex align-items-center">
                     <button className="btn grad1">
-                      <spam>Learn More</spam>
+                      <a href="project">Learn More</a>
                     </button>
                   </div>
                 </div>
@@ -32,7 +32,7 @@ function Projects() {
                   </p>
                   <div class="d-flex align-items-center">
                     <button className="btn grad1">
-                      <spam>Learn More</spam>
+                      <a href="project">Learn More</a>
                     </button>
                   </div>
                 </div>
@@ -49,7 +49,9 @@ function Projects() {
                   </p>
                   <div class="d-flex align-items-center">
                     <button className="btn grad1">
-                      <spam>Learn More</spam>
+                      <spam>
+                        <a href="project">Learn More</a>
+                      </spam>
                     </button>
                   </div>
                 </div>
