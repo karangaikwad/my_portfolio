@@ -6,11 +6,11 @@ function Header1() {
         <br />
         I'am Karan
       </p>
-      <p className="heading1 grad">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-        Morbi condimentum nunc ipsum, vitae euismod arcu <br />
-        lacinia quis. In hac habitasse platea dictumst. <br />
-        Vivamus eget euismod ante, eu tincidunt augue.
+      <p className="heading1">
+        I am currently studying computer engineering from <br />
+        Vishwakarma Institute of Information Technology. <br />
+        I like doing competitive programming and web developement. <br />
+        Currently studying MERN stack.
       </p>
     </>
   );

@@ -5,11 +5,82 @@
 .color1 {
   background-color: #0f1525;
 }
+
+.border1 {
+  /* padding: 10px 20px; */
+  margin: 20px 10px;
+  cursor: pointer;
+  border-radius: 16px;
+}
 .color2 {
   color: #d9d9d9;
   font-family: "Open Sans";
   font-size: 20px;
   margin-left: 35px;
+}
+spam {
+  color: #d9d9d9;
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+
+.heading2 {
+  font-family: "Source Serif Pro";
+  font-size: 40px;
+}
+.grad {
+  background: -webkit-linear-gradient(left, #ffffff, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.grad1 {
+  background: linear-gradient(to right, #a47ced, #29cefa);
+}
+.heading1 {
+  font-family: "Open Sans";
+}
+.line {
+  opacity: 1;
+  border: none;
+  padding: 1px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  background: linear-gradient(to right, #a47ced, #29cefa);
+  width: 100px;
+}
+.line1 {
+  opacity: 1;
+  border: none;
+  padding-top: 1px;
+  background: linear-gradient(to right, #a47ced, #29cefa);
+  width: 450px;
+  margin-left: 255px;
+}
+.mar {
+  margin-bottom: 0px;
+}
+.card {
+  border: none;
+}
+.card1 {
+  background-color: #fff;
+
+  box-shadow: 0px 0px 30px 0px #0ff;
+  width: 90%;
+}
+
+.back1 {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.div1 {
+  position: absolute;
+}
+p {
+  font-family: "Open Sans";
 }
 .elements {
   margin-left: 255px;
@@ -19,22 +90,10 @@
 }
 .heading {
   font-family: "Source Serif Pro";
-  width: 400px;
+  width: 500px;
   font-size: 50px;
 }
-.grad {
-  background: -webkit-linear-gradient(left, #ffffff, #000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.heading1 {
-  font-family: "Open Sans";
-}
-.line {
-  border: none;
-  padding: 1px;
-  margin-top: 60px;
-  margin-bottom: 50px;
-  background: linear-gradient(to right, #a47ced, #29cefa);
-  width: 100px;
+.pos1 {
+  position: absolute;
+  left: 80%;
 }
