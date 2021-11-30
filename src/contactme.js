@@ -43,6 +43,7 @@ function Contactme() {
           msg: "",
         });
       }
+      alert("I'll get in touch asap. Thanks for visiting.");
     } else {
       alert("Please fill the * marked data.");
     }
