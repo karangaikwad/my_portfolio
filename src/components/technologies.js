@@ -1,7 +1,7 @@
 function Technologies() {
   return (
     <>
-      <p className="heading grad">Languages and Tecnologies</p>
+      <p className="heading grad">Languages and Technologies</p>
       <p className="heading1">
         I like doing competitive programming in C++ <br />
         I do projects of web developement and can use
