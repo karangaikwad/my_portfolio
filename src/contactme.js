@@ -17,30 +17,34 @@ function Contactme() {
   const postData = async (e) => {
     e.preventDefault();
     const { firstname, lastname, email, phoneno, msg } = message;
-    const res = await fetch(
-      "https://trans-invention-301703-default-rtdb.firebaseio.com/messagedata.json",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          firstname,
-          lastname,
-          email,
-          phoneno,
-          msg,
-        }),
+    if (email && firstname && lastname) {
+      const res = await fetch(
+        "https://trans-invention-301703-default-rtdb.firebaseio.com/messagedata.json",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            firstname,
+            lastname,
+            email,
+            phoneno,
+            msg,
+          }),
+        }
+      );
+      if (res) {
+        setMessage({
+          firstname: "",
+          lastname: "",
+          email: "",
+          phoneno: "",
+          msg: "",
+        });
       }
-    );
-    if (res) {
-      setMessage({
-        firstname: "",
-        lastname: "",
-        email: "",
-        phoneno: "",
-        msg: "",
-      });
+    } else {
+      alert("Please fill the * marked data.");
     }
   };
   console.log(message);
